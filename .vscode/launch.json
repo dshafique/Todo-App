@@ -6,6 +6,15 @@
     "configurations": [
         
         {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "cwd":"${workspaceFolder}",
+            "url": "http://localhost:4200",
+            "webroot": "${workspaceFolder}"
+        },
+        
+        {
             "type": "java",
             "name": "Debug (Launch)-Application<complete>",
             "request": "launch",
