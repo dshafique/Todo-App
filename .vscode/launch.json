@@ -12,7 +12,7 @@
             "cwd":"${workspaceFolder}",
             "console":"internalConsole",
             "stopOnEntry": false,
-            "mainClass": "hello.application",
+            "mainClass": "hello.Application",
             "projectName": "complete",
             "args": ""
         },
@@ -21,7 +21,7 @@
             "type": "java",
             "name": "Debug (Launch) - Application<Initial>",
             "request": "launch",
-            "mainClass": "hello.application",
+            "mainClass": "hello.Application",
             "projectName": "initial",
             "args": ""
         },
